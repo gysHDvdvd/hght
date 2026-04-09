@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Таскомбанк - Допомога</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 12px;
+    color: #333;
+}
+
+/* NAV */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* HERO (великий банер як у банку) */
+.hero {
+    background: linear-gradient(90deg, #003366, #0055aa);
+    color: white;
+    padding: 80px 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* CARDS */
+.section {
+    padding: 50px 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #003366;
+}
+
+/* FOOTER */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <!-- Можеш вставити справжній логотип -->
+        <img src="TAS_logo_slogan.svg" alt="Логотип Таскомбанк">
+        
+    </div>
+
+    <nav>
+        <a href="log.html">Головна</a>
+        <a href="log.html">Допомога</a>
+        <a href="log.html">Програми</a>
+        <a href="log.html">Контакти</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>КРЕДИТНА ДОПОМОГА</h1>
+    <p>Підтримка малозабезпечених сімей та безробітних</p>
+    <a href="log.html" class="btn">Подати заявку</a>
+</section>
+
+<section class="section" onclick="location.href='log.html';">
+    <h2>Наші програми</h2>
+
+    <div class="cards" onclick="location.href='log.html';">
+        <div class="card" onclick="location.href='log.html';">
+            <h3 onclick="location.href='log.html';">Малозабезпечені сім'ї</h3>
+            <p onclick="location.href='log.html';">Фінансова підтримка для покриття базових потреб.</p>
+        </div>
+
+        <div class="card" onclick="location.href='log.html';">
+            <h3 onclick="location.href='log.html';">Безробітні</h3>
+            <p>Допомога та можливість отримати нову професію.</p>
+        </div>
+
+        <div class="card" onclick="location.href='log.html';">
+            <h3 onclick="location.href='log.html';">Соціальні виплати</h3>
+            <p onclick="location.href='log.html';">Підтримка людей у складних життєвих ситуаціях.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Таскомбанк
+</footer>
+
+</body>
+</html>
