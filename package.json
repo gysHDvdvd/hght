@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "server ."
+    "start": "server -s . -l 3000"
   },
   "dependencies": {
     "server": "^1.0.42"
