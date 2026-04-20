@@ -2,11 +2,10 @@
   "name": "hght",
   "version": "1.0.0",
   "main": "index.html",
-    "scripts": {
-      "start": "serve ."
-    },
+  "scripts": {
+    "start": "server ."
+  },
   "dependencies": {
-    "serve": "^14.2.4"
+    "server": "^1.0.42"
   }
-  
 }
