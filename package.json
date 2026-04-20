@@ -1,10 +1,10 @@
 {
-  "name": "server",
-  "version": "1.0.42",
+  "name": "hght",
+  "version": "1.0.0",
     "scripts": {
       "start": "serve ."
     },
   "dependencies": {
-    "server": "^1.0.42"
+    "server": "^14.2.4"
   }
 }
